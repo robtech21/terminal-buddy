@@ -3,7 +3,7 @@
 import os, sys, json
 import sys
 sys.path.insert(1, 'commands')
-import commands.alarm_notifier, commands.news, commands.package_manager, commands.pcinfo, commands.weather, commands.yt_dl
+from commands import alarm_notifier, news, package_manager, pcinfo, weather, yt_dl
 
 version = 0.1
 
